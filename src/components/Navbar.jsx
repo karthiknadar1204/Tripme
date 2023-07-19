@@ -18,7 +18,7 @@ const Navbar = () => {
 
       <main className={`nav-menu ${clicked ? 'active' : ''}`}>
         <a href="/"> <i className="fa-sharp fa-solid fa-house-user"></i> Home</a>
-        <a href="/about"> <i className="fa-solid fa-circle-info"></i> About</a>
+        <a href="/about"> <i className="fa-solid fa-circle-info"></i> About</a> 
         <a href="/services"> <i className="fa-solid fa-briefcase"></i> Services</a>
         <a href="/contact"> <i className="fa-solid fa-address-book"></i> Contact us</a>
         <a href='#'><i className="login-signup-button"></i>Sign up</a>
