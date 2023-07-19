@@ -1,4 +1,4 @@
-.footer {
+  .footer {
     padding: 4rem 6rem;
     background-color: #000;
     color: #fff;
@@ -43,6 +43,10 @@
     padding-bottom: 0.4rem;
     font-size: 1.3rem;
   }
+  .bottom a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+  }
   
   @media screen and (max-width: 850px) {
     .footer {
@@ -85,7 +89,6 @@
 
   @media screen and (max-width: 280px) {
     .footer {
-      /* padding: 2rem 0.5rem; */
       width: 100%;
     }
   
@@ -131,5 +134,33 @@
       flex-basis: 50%;
       margin-bottom: 1.5rem;
     }
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+  }
+  
+  .social-icons a i {
+    font-size: 30px;
+  }
+  
+  .social-icons a:hover .fab.fa-facebook-square {
+    color: blue;
+  }
+  
+  .social-icons a:hover .fab.fa-instagram-square {
+    background-color: #C13584;
+  }
+  
+  .social-icons a:hover .fab.fa-twitter-square {
+    background-color: #1DA1F2;
   }
   

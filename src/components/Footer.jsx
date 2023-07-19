@@ -10,13 +10,13 @@ const Footer = () => {
           <p>Choose your favourite destination</p>
         </div>
         <div className="social-icons">
-          <a href="/">
-            <i className='fa-brands fa-facebook-square'></i>
+          <a href="https://github.com/karthiknadar1204" target='_blank' >
+            <i className="fab fa-github-square"></i>
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/karthiknadar1204/" target='_blank' >
             <i className='fa-brands fa-instagram-square'></i>
           </a>
-          <a href="/">
+          <a href="https://twitter.com/Karthikreincar1" target='_blank' >
             <i className='fa-brands fa-twitter-square'></i>
           </a>
         </div>
@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="bottom">
         <div className="section">
           <h4>Project</h4>
-          <a href="/">ChangeLog</a>
+          <a href="/">ChangeLog</a> 
           <a href="/">Status</a>
           <a href="/">License</a>
           <a href="/">All Versions</a>
