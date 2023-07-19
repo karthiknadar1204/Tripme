@@ -1,0 +1,114 @@
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    touch-action: pan-y;
+  }
+  
+  .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slick-slide {
+    float: left;
+    height: auto;
+    min-height: 1px;
+    display: block;
+  }
+
+.triph1{
+  font-size: 2.5rem;
+  text-align: center;
+}  
+
+.first_para_services{
+  text-align: center;
+  font-size: 2rem;
+}
+  
+  .t-image:hover img {
+    transform: scale(1.3);
+  }
+  
+  .t-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+  }
+
+  .carousel-container {
+    margin-top: 3rem;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .t-card {
+    width: 90%;
+    max-width: 750px;
+    text-align: start;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  .t-image {
+    height: 400px;
+    overflow: hidden;
+    border-radius: 7px;
+  }
+  
+  .t-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+  }
+  
+  .t-card h4 {
+    font-size: 1.2rem;
+    padding: 0.2rem 0 0.1rem 0;
+  }
+  
+  @media (max-width: 412px) {
+    .carousel-container {
+      margin-top: 2rem;
+    }
+  
+    .t-card {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .carousel-container {
+      margin-top: 2rem;
+    }
+  
+    .t-card {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 912px) {
+    .carousel-container {
+      margin-top: 1rem;
+    }
+  
+    .t-card {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }

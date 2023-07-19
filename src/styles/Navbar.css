@@ -1,0 +1,340 @@
+
+.NavbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 95%;
+    height: 90px;
+    border-radius: 13px;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    position: fixed;
+    top: 20px;
+    background-color: white;
+    z-index: 99999;
+  }
+  
+  .navbar-logo {
+    color: #222;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .menu-icons {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-menu > a {
+    margin: 2rem;
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+  }
+  
+  a > i {
+    padding-right: 10px;
+  }
+  
+  a:hover {
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-right: 3rem;
+  }
+  
+  button:hover {
+    background-color: #151516;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+  }
+  
+  @media (max-width: 1080px) {
+    .menu-icons {
+      display: block;
+      order: 2;
+    }
+  
+    .NavbarItems {
+      width: 90%;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 90px;
+      right: -100%; 
+      width: 100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background-color: white;
+      right: 0; 
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-menu > a {
+      margin: 1rem 2rem;
+    }
+  
+    .NavbarItems.active .menu-icons {
+      color: black;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .menu-icons {
+      display: block;
+      order: 2;
+    }
+  
+    .NavbarItems {
+      width: 75%;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 90px;
+      right: -100%;
+      width: 100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background-color: white;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-menu > a {
+      margin: 1rem 2rem;
+    }
+  
+    .NavbarItems.active .menu-icons {
+      color: black;
+    }
+  
+    .NavbarItems {
+      height: 80px;
+    }
+  
+    .navbar-logo {
+      font-size: 1.8rem;
+    }
+  
+    .nav-menu {
+      top: 80px;
+    }
+  
+    .nav-menu > a {
+      margin: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 414px) {
+    .menu-icons {
+      display: block;
+      order: 2;
+    }
+  
+    .NavbarItems {
+      width: 75%;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 90px;
+      right: -100%;
+      width: 100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background-color: white;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-menu > a {
+      margin: 1rem 2rem;
+    }
+  
+    .NavbarItems.active .menu-icons {
+      color: black;
+    }
+  
+    .NavbarItems {
+      height: 80px;
+    }
+  
+    .navbar-logo {
+      font-size: 1.8rem;
+    }
+  
+    .nav-menu {
+      top: 80px;
+    }
+  
+    .nav-menu > a {
+      margin: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .menu-icons {
+      display: block;
+      order: 2;
+    }
+  
+    .NavbarItems {
+      width: 80%;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 90px;
+      right: -100%;
+      width: 100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background-color: white;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-menu > a {
+      margin: 1rem 2rem;
+    }
+  
+    .NavbarItems.active .menu-icons {
+      color: black;
+    }
+  
+    .NavbarItems {
+      height: 80px;
+    }
+  
+    .navbar-logo {
+      font-size: 1.8rem;
+    }
+  
+    .nav-menu {
+      top: 80px;
+    }
+  
+    .nav-menu > a {
+      margin: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 280px) {
+    .menu-icons {
+      display: block;
+      order: 2;
+    }
+  
+    .NavbarItems {
+      width: 90%;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 90px;
+      right: -100%;
+      width: 100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background-color: white;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-menu > a {
+      margin: 1rem 2rem;
+    }
+  
+    .NavbarItems.active .menu-icons {
+      color: black;
+    }
+  
+    .NavbarItems {
+      height: 70px;
+    }
+  
+    .navbar-logo {
+      font-size: 1.6rem;
+    }
+  
+    .nav-menu {
+      top: 70px;
+    }
+  
+    .nav-menu > a {
+      margin: 0.8rem 1.2rem;
+      font-size: 0.9rem;
+    }
+  }
